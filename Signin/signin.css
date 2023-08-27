@@ -1,0 +1,145 @@
+        body {
+            background-image: url("images/doctor-with-stethoscope-hands-hospital-background.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+        }
+        
+        input,
+        button {
+            border: none;
+            outline: none;
+            background: none;
+        }
+        
+        label {
+            display: block;
+            width: 260px;
+            margin: 30px auto 0;
+            text-align: center;
+            padding: 10px;
+        }
+        
+        label span {
+            font-size: 16px;
+            font-weight: 600;
+            color: #505f75;
+            text-transform: uppercase;
+            font-family: 'Nunito', sans-serif;
+        }
+        
+        input {
+            display: block;
+            width: 100%;
+            margin-top: 5px;
+            font-size: 16px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid rgba(109, 93, 93, 0.4);
+            text-align: center;
+            font-family: 'Nunito', sans-serif;
+        }
+        
+        .container {
+            overflow: hidden;
+            position: relative;
+            width: 900px;
+            height: 780px;
+            background: #fff;
+            box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+            margin: 0rem 0 0 1rem;
+        }
+        
+        .logo {
+            display: flex;
+            margin: auto;
+        }
+        
+        #red {
+            color: red;
+            font-family: Tw Cen MT Condensed;
+            font-size: 40px;
+            text-align: center;
+        }
+        
+        .text {
+            font-family: Tw Cen MT Condensed;
+            font-size: 44px;
+            text-align: center;
+            margin: -2rem 0 0 0rem;
+        }
+        
+        .header {
+            font-family: Tw Cen MT Condensed;
+            font-size: 44px;
+            text-align: center;
+            padding: 20px;
+            font-weight: bold;
+        }
+        
+        button {
+            display: block;
+            margin: 0 auto;
+            width: 260px;
+            height: 36px;
+            border-radius: 30px;
+            color: #fff;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        
+        .submit {
+            margin-top: -60px;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-family: 'Nunito', sans-serif;
+            background: rgb(255, 102, 0);
+        }
+        
+        .submit:hover {
+            background: -webkit-linear-gradient(left, #b224ef, #7579ff);
+        }
+        
+        #dt {
+            display: flex;
+            align-items: center;
+            margin-left: -3rem;
+        }
+        
+        #txt {
+            float: left;
+            width: 10rem;
+            margin-left: 26rem;
+            margin-bottom: -1.2rem;
+            font-family: Tw Cen MT Condensed;
+            font-size: 24px;
+            font-weight: regular;
+        }
+        
+        .rights {
+            font-family: Tw Cen MT Condensed;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            padding: 0rem 0rem;
+        }
+        
+        .social-media {
+            width: 100%;
+            margin: 2rem 0 0 19rem;
+        }
+        
+        .social-media ul {
+            list-style: none;
+        }
+        
+        .social-media ul li {
+            display: inline-block;
+            cursor: pointer;
+            margin: 15px 15px;
+        }
+        
+        .social-media img {
+            width: 40px;
+            height: 40px;
+        }

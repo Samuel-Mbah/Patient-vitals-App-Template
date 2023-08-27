@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>eDoctorbase/Signup</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <img src="D:\eDoctorbase app\Signup\images\logo.png" alt="eDoctorbase Logo " class="logo" ;>
+
+        <form action="" method="post">
+            <div class="header"> SIGN UP</div>
+            <!--Form elements-->
+            <label for="first_name">
+                <span>first name</span>
+                <input type="text" name="first_name" required>
+              </label>
+
+            <label for="last_name">
+                <span>last name</span>
+                <input type="text" name="last_name" required>
+              </label>
+
+            <label for="username">
+                <span>Username</span>
+                <input type="text" name="username" required>
+              </label>
+
+            <label for="email">
+                <span>email</span>
+                <input type="email" name="email" required>
+              </label>
+
+            <label for="password">
+                <span>password</span>
+                <input type="password" name="password" required>
+              </label>
+
+            <label for="password2 ">
+                <span> Confirm Password</span>
+                <input type="password " name="password2" required>
+              </label>
+
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="doctor" name="checkbox" required/>
+                            <span id="txt" for="checkbox">Doctor</span>
+                        </td>
+
+                        <td>
+                            <input type="checkbox" id="analyst" name="checkbox" required />
+                            <span id="txt1" for="checkbox">Analyst</span>
+                        </td>
+
+                        <td>
+                            <input type="checkbox" id="nurse" name="checkbox" required />
+                            <span id="txt2" for="checkbox">Nurse</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <button class="submit " type="button ">sign up</button>
+        </form>
+
+    </div>
+</body>
+
+</html>

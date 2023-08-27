@@ -1,0 +1,137 @@
+        body {
+            background-image: url("images/group-multiethnic-busy-people-working-office.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 150%;
+        }
+        
+        input,
+        button {
+            border: none;
+            outline: none;
+            background: none;
+        }
+        
+        label {
+            display: block;
+            width: 260px;
+            margin: 20px auto 0;
+            text-align: center;
+        }
+        
+        label span {
+            font-size: 16px;
+            font-weight: 600;
+            color: #505f75;
+            text-transform: uppercase;
+            font-family: 'Nunito', sans-serif;
+        }
+        
+        input {
+            display: block;
+            width: 100%;
+            margin-top: 5px;
+            font-size: 16px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid rgba(109, 93, 93, 0.4);
+            text-align: center;
+            font-family: 'Nunito', sans-serif;
+        }
+        
+        .container {
+            overflow: hidden;
+            position: relative;
+            width: 900px;
+            height: 780px;
+            background: #fff;
+            box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+            margin: 0rem 0 0 1rem;
+        }
+        
+        .logo {
+            display: flex;
+            margin: auto;
+        }
+        
+        .header {
+            font-family: Tw Cen MT Condensed;
+            font-size: 44px;
+            text-align: center;
+            margin: -4rem 0 0 0rem;
+            font-weight: bold;
+            padding: 1px;
+        }
+        
+        button {
+            display: block;
+            margin: 0 auto;
+            width: 260px;
+            height: 36px;
+            border-radius: 30px;
+            color: #fff;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        
+        .submit {
+            margin-top: -30px;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-family: 'Nunito', sans-serif;
+            background: rgb(255, 102, 0);
+        }
+        
+        .submit:hover {
+            background: -webkit-linear-gradient(left, #b224ef, #7579ff);
+        }
+        
+        #doctor {
+            margin-left: 5.5rem;
+            margin-top: 1.5rem;
+        }
+        
+        #analyst {
+            margin-top: 1.5rem;
+            margin-left: -3.2rem;
+        }
+        
+        #nurse {
+            margin-top: 1.5rem;
+            margin-left: -3.6rem;
+        }
+        
+        #txt {
+            float: left;
+            width: 10rem;
+            margin-left: 18rem;
+            margin-bottom: 4rem;
+            font-family: Tw Cen MT Condensed;
+            font-size: 24px;
+            font-weight: regular;
+        }
+        
+        #txt1 {
+            float: left;
+            width: 10rem;
+            margin-bottom: 4rem;
+            font-family: Tw Cen MT Condensed;
+            font-size: 24px;
+            font-weight: regular;
+        }
+        
+        #txt2 {
+            float: left;
+            width: 10rem;
+            margin-bottom: 4rem;
+            font-family: Tw Cen MT Condensed;
+            font-size: 24px;
+            font-weight: regular;
+        }
+        
+        .rights {
+            font-family: Tw Cen MT Condensed;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            padding: 0rem 0rem;
+        }
